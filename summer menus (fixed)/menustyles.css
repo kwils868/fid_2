@@ -1,0 +1,99 @@
+body {
+font-family: Georgia, serif;
+font-size: small;
+line-height: 1.75em;
+/*background-image: url(yellowtile.png);
+background-position: center top;*/
+background: #FFDEAD url(goosesil.png) no-repeat center 100px fixed;
+}
+h1 {
+font: bold 1.5em "Marko One", Georgia, serif;
+text-shadow: .05em .05em .1em #CD853F;
+}
+h2 {
+font-size: 1em;
+text-transform: uppercase;
+letter-spacing: .5em;
+color: #D2691E;
+}
+h2 + p {
+text-align: center;
+font-style: italic;
+}
+dt {
+font-weight: bold;
+color: sienna;
+}
+strong {
+font-style: italic;
+color: tomato;
+}
+dt strong {
+color: tomato;
+}
+h1, h2, #info {
+text-align: center;
+}
+#info p {
+font-style: italic;
+color: black;
+}
+.price {
+font-family: Georgia, serif;
+font-style: italic;
+color: black;
+}
+.label {
+font-weight: bold;
+font-variant: small-caps;
+font-style: normal;
+}
+p.warning, sup {
+font-size: small;
+color: red;
+}
+blockquote {
+background-color: rgba(255, 255, 255, 0.5);
+padding: 1em;
+text-align: center;
+}
+h1, a {
+color: #A0522D;
+}
+a {
+list-style-position: inside;
+text-align: center;
+padding: 0;
+text-decoration: none;
+}
+a:visited {
+color: #937393;
+}
+a:hover {
+color: #c700f2;
+background-color: #fff;
+}
+a:active {
+color: #ff00ff;
+background-color: #fff;
+}
+.container {
+maxwidth: 700px;
+margin:0 auto;
+padding: 0 1rem;
+text-align: center;
+}
+.main-header {
+margin-top: 0;
+padding: 3em 1em em 1em;
+text-align: center;
+margin: 0 15%;
+background-color: rgba(255,255 255,.5);
+background-image: url(purpledot.png);
+background-repeat: x;
+background:
+url(purpledot.png) left repeat-y,
+url(purpledot.png) right repeat-y,
+url(gshadow.png) 90% bottom no-repeat;
+background-color: (rgba(255, 255, 255, .5);
+}
