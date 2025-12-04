@@ -1,0 +1,81 @@
+body { 
+  font-family: "Palatino Linotype", Georgia, serif;
+  font-size: small;
+  line-height: 1.75em; 
+  background: #FFF3D6 url(goosesil.png) no-repeat center 120px fixed;
+}
+
+h1 {
+  font: 700 2em "Playfair Display", serif;
+  text-shadow: .06em .06em .15em #b97a3d;
+  letter-spacing: .03em;
+}
+
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .4em;
+  color: #A0522D;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
+
+dt { font-weight: bold; color: #8B4513; }
+strong, dt strong { color: #D95336; font-style: italic; }
+
+h1, h2, #info { text-align: center; }
+
+#info p {
+  font-style: italic;
+  color: #222;
+}
+
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #333;
+}
+
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+p.warning, sup {
+  font-size: small;
+  color: #c00;
+}
+
+blockquote {
+  background-color: rgba(255, 255, 255, .6);
+  padding: 1em;
+  text-align: center;
+}
+
+h1, a { color: #8A4B27; }
+
+a {
+  text-decoration: none;
+}
+
+a:visited { color: #876565; }
+a:hover { color: #b94f1f; background-color: #fff; }
+a:active { color: #e15a32; background-color: #fff; }
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.main-header {
+  padding: 3em 1em 1em 1em;
+  margin: 0 15%;
+  background:
+    url(gshadow.png) 90% bottom no-repeat;
+  background-color: rgba(255, 255, 255, .5);
+}

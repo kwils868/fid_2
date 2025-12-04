@@ -1,0 +1,124 @@
+body { 
+  font-family: "Merriweather", serif;
+  font-size: small;
+  line-height: 1.75em; 
+  background: #F2FFF9 url(goosesil.png) no-repeat center 150px fixed;
+  background-size: 240px auto;
+}
+
+/* Header with new styling */
+h1 {
+  font: 700 2.3em "Bodoni Moda", serif;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: #1F7A73;
+  text-shadow: .07em .07em .2em rgba(0, 105, 92, .35);
+}
+
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .55em;
+  color: #FF6B5C;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+  color: #333;
+}
+
+dt {
+  font-weight: bold;
+  color: #1C5D58;
+}
+
+strong {
+  font-style: italic;
+  color: #FF5A4F;
+}
+
+dt strong {
+  color: #FF5A4F;
+}
+
+h1, h2, #info {
+  text-align: center;
+}
+
+#info p {
+  font-style: italic;
+  color: #222;
+}
+
+/* Price styling */
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #222;
+}
+
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+/* Warnings + special text */
+p.warning, sup {
+  font-size: small;
+  color: #C70039;
+}
+
+blockquote {
+  background-color: rgba(255, 255, 255, 0.55);
+  padding: 1em;
+  text-align: center;
+}
+
+/* Links */
+h1, a {
+  color: #1F7A73;
+}
+
+a {
+  list-style-position: inside;
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #6E8E89;
+}
+
+a:hover {
+  color: #13A49A;
+  background-color: #fff;
+}
+
+a:active {
+  color: #1FE8D9;
+  background-color: #fff;
+}
+
+/* Container */
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+/* HEADER box */
+.main-header {
+  margin-top: 0;
+  padding: 3em 1em 1em 1em;
+  text-align: center;
+  margin: 0 15%;
+  background:
+    url(gshadow.png) 10% bottom no-repeat,
+    url(gshadow.png) 90% bottom no-repeat;
+  background-size: 180px auto, 180px auto;
+  background-color: rgba(255, 255, 255, .6);
+}
