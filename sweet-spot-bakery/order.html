@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Sweet Spot – Catering Order</title>
+<link href="http://fonts.googleapis.com/css?family=Marko+One" rel="stylesheet">
+<link rel="stylesheet" href="order.css">
+</head>
+
+<body>
+<h1>The Sweet Spot | Catering Order Form</h1><img src="SS_logo.png" alt="SS Bakery Logo" width="20%" height="20%">
+<p>Thanks for choosing The Sweet Spot!  
+Please complete the form below to place a catering order.  
+We will contact you shortly to confirm the details and pricing!</p>
+<ul>
+<li><a href="bakeindex.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="special.html">Specialty Menu</a></li>
+<li><a href="order.html">Order</a></li>
+<li><a href="info.html">Shop Info</a></li>
+</ul>
+
+<form action="submit_order.php" method="post">
+
+<h2>Customer Information</h2>
+
+<label for="name">Full Name:</label><br>
+<input type="text" id="name" name="name" required><br><br>
+
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email" required><br><br>
+
+<label for="phone">Phone Number:</label><br>
+<input type="tel" id="phone" name="phone" required><br><br>
+
+<label for="date">Event / Pickup Date:</label><br>
+<input type="date" id="date" name="date" required><br><br>
+
+<h2>Order Items</h2>
+
+<p><strong>Select quantities for each item you would like to order:</strong></p>
+
+
+<label for="strawb">Sweet Strawberry Cake (Whole – $35.00):</label><br>
+<input type="number" id="strawb" name="strawberry_cake" min="0" value="0"><br><br>
+
+
+<label for="choc">Chocolate Cake (Whole – $35.00):</label><br>
+<input type="number" id="choc" name="chocolate_cake" min="0" value="0"><br><br>
+
+
+<label for="taro">Taro Crepe Cake (Whole – $40.00):</label><br>
+<input type="number" id="taro" name="taro_crepe_cake" min="0" value="0"><br><br>
+
+
+<label for="vanilla">Vanilla Cheesecake (Whole – $30.00):</label><br>
+<input type="number" id="vanilla" name="vanilla_cheesecake" min="0" value="0"><br><br>
+
+
+<label for="oreo">Oreo Cheesecake (Whole – $30.00):</label><br>
+<input type="number" id="oreo" name="oreo_cheesecake" min="0" value="0"><br><br>
+
+<h2>Additional Notes</h2>
+<label for="notes">Please put any requests, allergies, or other additional information here:</label><br>
+<textarea id="notes" name="notes" rows="5" cols="40"></textarea><br><br>
+
+<h2>Submit Order</h2>
+<input type="submit" value="Place Order">
+
+</form>
+
+<footer>
+<p><small>&copy; 2025 Kaia Williams. All rights reserved.</small></p>
+</footer>
+
+</body>
+</html>

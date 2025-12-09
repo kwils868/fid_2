@@ -1,0 +1,123 @@
+body {
+    background-color: #ffeef4;
+    font-family: Cambria, serif;
+    color: #7a4a58;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #b56c86;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+form {
+    width: 75%;
+    margin: 20px auto;
+    background-color: #ffecf3;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #f3b8cf;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    color: #b56c86;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #f3b8cf;
+    border-radius: 8px;
+    background-color: #fff6fa;
+    font-family: Cambria, serif;
+    color: #7a4a58;
+}
+
+input[type="number"] {
+    width: 100px;
+}
+
+input[type="submit"] {
+    background-color: #ffd8e8;
+    color: #b56c86;
+    font-family: Cambria, serif;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 1px solid #f3b8cf;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffecf3;
+}
+
+p {
+    width: 70%;
+    margin: 10px auto 20px auto;
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffd8e8;
+    border-top: 1px solid #f3b8cf;
+    color: #7a4a58;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #b56c86;
+    background-color: #ffd8e8;
+    padding: 6px 12px;
+    border-radius: 10px;
+    border: 1px solid #f3b8cf;
+}
+
+ul li a:hover {
+    background-color: #ffecf3;
+}
+
+a {
+    color: #b56c86;
+    text-decoration: none;
+    padding: 8px 14px;
+    background-color: #ffd8e8;
+    border: 1px solid #f3b8cf;
+    border-radius: 12px;
+}
+
+a:hover {
+    background-color: #ffecf3;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffd8e8;
+    border-top: 1px solid #f3b8cf;
+    color: #7a4a58;
+}
